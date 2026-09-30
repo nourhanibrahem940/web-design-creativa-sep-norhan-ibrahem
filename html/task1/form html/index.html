@@ -3,22 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>online courses</title>
 </head>
 <body>
-    <h1>registration form</h1>
-    <form method="post">
-        <label for="userName">first name</label>
-        <input type="text" name="username" id="userName" autofocus>
+    <h1>Registration form</h1>
+    <form method="post" autocomplete="off">
+        <label for="userName">First Name :</label>
+        <input type="text" name="userName" id="userName" autofocus required placeholder="enter your name">
 
-        <label for="phoneNumber">phone</label>
-        <input type="text" maxlength="11" pattern="{010-011-012}" name="phonenumber" id="phoneNumber">
+        <label for="phoneNumber">Phone</label>
+        <input type="text" maxlength="11" pattern="{010-011-012}" name="phoneNumber" id="phoneNumber" placeholder="enter your phone">
 
-        <label>courses</label>
-        <input type="checkbox" name="en"> <label>english</label>
-        <input type="checkbox" name="ar"> <label>arabic</label>
-        <input type="checkbox" name="mat"> <label>math</label>
+        <br>
+        <label for="idNo">ID</label>
+        <input type="text" pattern="{0-9}" name="idNo" maxlength="5" placeholder="entre your id">
 
+        <label>Date</label>
+        <input type="date">
+    
+        <div>
+            <label>Your courses</label>
+            <input list="chooseYourCourse" name="Courses">
+            <datalist id="chooseYourCourse">
+                <option value="english">
+                <option value="math">
+                <option value="arabic">
+            </datalist>
+            
+
+            <label for="studentCountry">country</label>
+            <select id="studentCountry" name="coun">
+                <option disabled selected>choose your country</option>
+                <option value="eg">egypt</option>
+                <option value="uk">united kingdom</option>
+                <option value="us">united states</option>
+                <option value="arg">argentin</option>
+        </select>
+        
+        <div> 
+            <textarea name="comment" placeholder="extra comments"></textarea>
+         </div>
+       
+        
+
+       
+        <div><input type="submit"> </div>
+       
+      <div style="text-align: center;">
+         <img src="D:\my_project\web-design-creativa-sep-norhan-ibrahem\html\task1\form html\img\download.png" width="1000" > 
+      </div>
+            
+
+       
+        
+          
+    
     </form>
 </body>
 </html>
