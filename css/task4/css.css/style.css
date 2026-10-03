@@ -1,0 +1,60 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#card{border-radius: 25px; 
+    justify-items: center;
+background-color: white;
+border: 2px solid lightgray;
+margin:5% auto;
+width: 30%;
+padding: 3% 4% 4% 4%;
+}
+
+#img
+{
+    border-radius: 50%;
+    width: 48%;
+    height: 48%;
+    padding: 4% 21% 6% 24%; 
+   }
+
+#name{color:black ;
+text-align: center;
+padding: 1%;}
+
+
+#job{color: darkblue;
+text-align: center;
+padding-bottom: 4%;}
+
+
+#description{color: rgb(97, 97, 97);
+text-align: center;
+}
+
+#button1{background-color: darkblue;
+color: white;
+border-radius: 30px;
+padding:10px 35px ;
+border: none;
+margin-right: 6px;
+}
+
+
+#button2{background-color:white;
+color:darkblue ;
+border-radius: 30px;
+padding: 10px 35px;
+border: 1px solid darkblue;
+margin-left: 6px;
+}
+
+
+
+#button-style{text-align: center; 
+margin-top: 7%;
+}

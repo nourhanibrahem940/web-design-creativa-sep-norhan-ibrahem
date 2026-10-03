@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#card-style
+{
+   
+    width: 30%;
+    margin: 3% auto;
+    background-color: rgb(246, 247, 248, 0.07);
+}
+#top-style
+{background-color: rgba(12, 12, 136, 0.867);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(247, 249, 250);
+    padding: 6%;
+}
+.lightgrey {color: rgba(211, 211, 211, 0.83);
+font-size: smaller;}
+
+#button
+{ color: rgb(38, 37, 37);
+    background-color: rgb(223, 166, 52);
+width: 75%;
+height: 50%;
+border-radius: 30px;
+text-align: center;
+padding-top: 2%;
+padding-bottom: 2%;
+font-size:medium;
+margin-top: 9%;
+margin-bottom: 9%;
+font-style: normal;
+}
+
+
+.border-bottom{
+    border-bottom: 1px solid rgb(200, 197, 197);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+#medium-style{text-align: center;
+    font-size:xx-small;
+    color: rgb(6, 5, 5);
+    border-style: solid;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-color: rgb(235, 237, 238);
+    border-width: 2px;
+}
+    
+
+#proplan-size{font-size: larger;
+font-style:initial; }
+
