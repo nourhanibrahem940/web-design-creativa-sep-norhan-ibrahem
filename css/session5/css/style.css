@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: capitalize;
+}
+
+
+ul{list-style: none;}
+
+
+
+
+.img-bg{
+    background-image: url(../images/pexels-optical-chemist-340351297-31256342.jpg);
+                      background-size: 100% 160%;
+}
+.overlay{background-color: rgba(169, 159, 159, 0.49);}
+
+.container{width: 80%;
+margin: auto;
+}
+
+.hr-white{border: solid 1px white;
+width: 10%;
+margin: 4% 0%;}
+
+.text-white{color: white;}
+
+.text-size
+{
+font-size: small;
+}
+
+
+.btn-style{background-color: transparent;
+border: white solid 2px;
+color: white;
+margin-top: 6%;
+padding: 1% 2%;
+width: 30%;
+}
+
+#form
+{
+background-color: white;
+border: 2px black solid;
+width: 30%;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+
+}
+
+.border-form{
+
+border-top: thin;
+border-left: thin;
+border-right: thin;
+
+}
+
+.banner-details
+{
+    width: 35%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+.padding-top-bottom
+{
+    padding: 6% 0%;
+}
+.btn2
+{
+background-color: orange;
+color: white;
+border: orange 1px solid;
+width: 100%;
+}
