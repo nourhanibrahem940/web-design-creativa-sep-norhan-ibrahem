@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Clarity City", sans-serif;;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+
+ul{list-style: none;}
+
+a{text-decoration: none;
+color: inherit;}
+
+
+
+
+/* global */
+.container{width: 80%;
+margin: auto;}
+.text-white{color: white;}
+
+.d-flex{display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.align-start{align-items: flex-start;}
+.list-width{width: 50%;}
+
+
+
+
+
+
+
+
+
+
+
+/* custom */
+.bg-photo{background-image: url(../images/beautiful-and-inspiring-picture-detailing-a-bright-hot-air-balloon-over-river-pure-cozy-perfect-for-creatives-moods-stock-image-free-photo.jpeg);
+background-size: 100% 100%;}
+.icon-circle{
+    border: solid grey 4px;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+.icon-top-bottom-right{border-right-color: darkblue;
+    border-top-color: darkblue;
+border-bottom-color: darkblue;}
+
+.text-thin{font-size: 10px;}
+
+.aside-left{
+    width: 65%;
+}
+.aside-right{
+    width: 30%;
+}
+.margin-top{margin-top: 30%;
+margin-bottom: 3%;
+padding-bottom: 1%;}
+.padding-top{padding-top: 3%}
+
+.border-bottom{border-bottom: 2px rgb(230, 228, 228) solid;}
+
+.left-card{   box-shadow: -4px 9px 14px 4px darkgrey;
+            width: 48%;
+            margin-top: 5%;
+           line-height: 131%;}
+
+
+
+
+.right-card{   box-shadow: -4px 9px 14px 4px darkgrey;
+            width: 48%;
+            margin-top: 5%;
+           line-height: 131%;
+              }
+
+
+
+
+.text-gray{color: darkgrey;}
+
+.font-size{font-size: smaller;}
+
+
+.img1{width: 100%;}
+
+
+
+
+.d-flex-column{
+             flex-direction: column;
+             width: 48%;
+             box-shadow: -4px 9px 14px 4px darkgrey;
+             margin-top: 3%;
+             display: flex;
+            row-gap: 12px; }
+
+
+.img{    width: 30%;
+        margin-right: 5%;
+        display: block;}
+
+.card{
+align-items: center;
+width: 100%;
+justify-content: space-between;
+box-shadow:1px 0px 14px -5px darkgray;
+}
+
+
+.w-48{width: 48%;}
+
+
+.align-items{align-items: center;}
+
+.margin-left1{margin-left: 1%;}
+
+.margin-left5{margin-left: 5%;}
+
+
+.align-items-end{align-items: flex-end;}
+
+.hr-grey{border:1px solid rgb(215, 205, 205);}
+
+.hr-margin{margin: 3% 0%;}
+
