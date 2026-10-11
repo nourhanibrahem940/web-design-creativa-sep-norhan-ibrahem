@@ -1,0 +1,150 @@
+/* reset style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+/* global style */
+.container{margin: auto;
+width: 80%;
+background-color: ghostwhite;
+padding: 3%;}
+
+
+.d-flex{display: flex;
+    justify-content: space-between;
+align-items: flex-end;}
+
+
+.d-flex{display: flex;
+   
+align-items: flex-end;}
+
+
+
+
+.justify-end{justify-content: flex-end;}
+
+
+.d-card{display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+    justify-content: space-between;}
+
+
+.text-grey{color: darkgray;}
+
+.font-size{font-size: 12px;}
+
+
+.img{width: 100%;
+border-radius: 10px;
+}
+
+
+.card{width: 30%;
+box-shadow: 5px 5px 15px 10px lightgrey;
+border-radius: 10px;
+border: 1px transparent solid;
+align-items: flex-start;
+padding: 1%;
+background-color: white;}
+
+
+
+.hr-style{border: 1px solid ghostwhite;
+margin: 1%;}
+
+
+.img-icon{
+border-radius: 50%;
+width: 22%;
+height: 22%;
+border: 1px solid transparent;}
+
+
+
+.i-green{border: 1px solid transparent;
+        border-radius: 50%;
+        width: 30%;
+        height: 30%;
+        color: darkgreen;
+        background-color: white;
+       }
+ 
+
+
+
+.h6-green{color: darkgreen;}
+
+
+
+.position-relatve{position: relative;}
+
+
+.overlay{ background-color: rgba(0, 0, 0, 0.348);
+         position: absolute;
+        width: 21%;
+        height: 18%;
+        top: 106px;
+        right: 153px;
+        
+        border-radius: 10px;
+        display: none;
+        
+}
+
+
+.icon{position: fixed;
+        background-color: rgb(38 37 37 / 70%);
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 3%;
+        top: 117px;
+        text-align: center;}
+
+
+.icon1{left:158px ;}
+
+
+.icon2{ left: 204px;}
+
+
+.icon3{left: 448px;}
+
+.icon4{left: 498px;}
+
+.icon5{right: 350px;}
+
+.icon6{right: 301px;}
+
+
+.card img:hover + .overlay{
+    display: block;
+    
+    
+}
+
+
+
+.card:hover{border: 2px solid darkgreen;}
+
+
+
+
+
+
+/* custom style */
+
+
+
+.button{border: 2px solid;
+        border-radius: 30px;
+        width: 110%;
+        background-color: ghostwhite;
+        padding: 7% 5%;}
