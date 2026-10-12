@@ -69,6 +69,10 @@ padding-bottom: 1%;}
 
 .border-bottom{border-bottom: 2px rgb(230, 228, 228) solid;}
 
+
+.border-right{border-right:  rgb(230, 228, 228) solid;
+ margin-left: 5%;}
+
 .left-card{   box-shadow: -4px 9px 14px 4px darkgrey;
             width: 48%;
             margin-top: 5%;
@@ -89,6 +93,8 @@ padding-bottom: 1%;}
 .text-gray{color: darkgrey;}
 
 .font-size{font-size: smaller;}
+
+.text-big{font-size: 18px;}
 
 
 .img1{width: 100%;}
@@ -114,6 +120,7 @@ align-items: center;
 width: 100%;
 justify-content: space-between;
 box-shadow:1px 0px 14px -5px darkgray;
+border: 1px solid transparent;
 }
 
 
@@ -126,6 +133,8 @@ box-shadow:1px 0px 14px -5px darkgray;
 
 .margin-left5{margin-left: 5%;}
 
+.margin-bottom{margin-bottom: 7%;}
+
 
 .align-items-end{align-items: flex-end;}
 
@@ -133,3 +142,272 @@ box-shadow:1px 0px 14px -5px darkgray;
 
 .hr-margin{margin: 3% 0%;}
 
+
+
+.d-flex-column-stories{
+             flex-direction: column;
+             width: 98%;
+                 height: 308px;
+             justify-content: space-between;
+             margin-top: 3%;
+             display: flex;
+            row-gap: 12px; 
+        }
+
+
+.info{width: 100%;
+align-items: center;
+border: 1px solid lightgray;
+justify-content: space-between;
+box-shadow:13px 15px 34px 0px gainsboro;}
+
+
+.img3{width: 20%;
+margin-right: 3%;}
+
+
+
+.text-align-center{text-align: center;}
+
+
+
+.d-flex-social{display: flex;
+width: 100%;
+justify-content: space-between;
+flex-direction: row;
+}
+
+
+
+.social-icon{border: 1px lightgrey solid;
+                background-color: transparent;
+            color: black;
+             width: 4%;
+             height: 4%;
+            border-radius: 50%;}
+
+
+
+
+
+
+
+.d-flex-row{ display: flex;
+  justify-content: space-between;}
+
+
+.margin-top-4{margin-top: 4%;}
+
+.img-88{width: 88%;}
+
+
+
+.position-relative{position: relative;}
+
+
+
+.overlay{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.656);
+    width: 88%;
+    height: 100%;
+    top:0;
+    color: white;
+    display: none;
+}
+
+
+
+.splash img:hover + .overlay{display: block;}
+
+
+
+.margin{margin: 7% 13%;}
+
+.margin-button{margin: 7% 40%;}
+
+
+
+
+.d-flex-column-articles{width: 95%;
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+box-shadow: 10px 10px 20px 8px lightgrey;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+.imglast{width: 21%;}
+
+.margin-bottom{margin-bottom: 3%;}
+
+
+.margin-bottom2{margin-bottom: 2%;}
+
+
+
+.d-flex-column-last{display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;}
+
+
+.last-card{width: 100%;
+box-shadow: 10px 10px 20px 8px lightgrey;
+text-align: center;
+line-height: 19px;}
+
+
+.img-last2{width: 100%;
+padding-bottom: 2%;}
+
+
+
+.padding-bottom{padding-bottom: 3%;}
+
+
+
+.button{position: absolute;
+   
+    color: purple;
+    background-color: white;
+    
+    border: 1px solid transparent;}
+
+
+.b1{ right: 206px;
+ top: 11px;}
+
+
+ .b2{right: 339px;
+    top: 365%;}
+
+
+
+.b3{    top: 116%;
+    left: 11%;}
+
+
+.b4{top: 208%;
+    left: 11%;}
+    
+    
+    
+.b5{top: 208%;
+        left: 38%;}
+
+
+
+.img-one{width: 100%;}
+
+.one-card{margin-top: 7%;
+width: 100%;
+align-items: center;
+text-align: justify;}
+
+
+
+
+.footer {
+    background-color: #10151d;
+    color: #fff;
+        padding-bottom: 133px;
+    padding-top: 42px;
+    margin-top: 3%;
+}
+
+
+.footer-container{   width: 80%;
+    margin: auto;
+    padding-bottom: 2%}
+
+
+.footer-about {
+    width: 32%;
+    float: left;
+}
+
+.footer-about h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.footer-about p {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1.8;
+    width: 85%;
+}
+
+.footer-links {
+    width: 32%;
+    float: left;
+    overflow: hidden;
+}
+
+.footer-links div {
+    width: 33.33%;
+    float: left;
+}
+
+.footer-links a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-subscribe {
+    width: 36%;
+    float: left;
+}
+
+.footer-subscribe h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-subscribe form {
+    border-bottom: 1px solid #777;
+    overflow: hidden;
+}
+
+.footer-subscribe input {
+    width: 85%;
+    float: left;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    color: white;
+}
+
+.footer-subscribe button {
+    width: 15%;
+    float: left;
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.footer-subscribe p {
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 15px;
+}
