@@ -90,19 +90,19 @@ margin-bottom: 3%;}
 
 .card-overlay{
 background-color: mediumseagreen;
-    top: 1px;
-    right: 9px;
+    top: -65px;
+    right: -49px;
   
     
-    height: 16%;
+    height: 100px;
     position: absolute;
-    width: 11%;
-    translate: 7px;
+    width: 100px;
+    
     transition: 1s;
     border-radius: 50%;
     color: white;
-   scale: 237%;
-   transform: rotate(33deg)}
+   
+   }
 
 /* custom style */
 .container{width: 80%;

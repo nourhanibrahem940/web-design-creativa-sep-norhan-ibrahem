@@ -1,0 +1,44 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box; }
+
+
+
+/* global style */
+
+
+
+.bg-photo{background-image: url(../images/straight-road-travel-concept-illustration-png.webp);
+height: 300px;
+width: 100%;
+position: relative;}
+
+
+/* custom style */
+
+
+.car-animation{
+width:200px ;
+margin-top: 10%;
+position: absolute;
+top: -30px;
+ right: 0;
+animation-name: carmotion;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+transition-delay: 1s;
+}
+
+
+@keyframes carmotion {
+          /* from{
+            transform: translatex(0px);
+          } */
+
+          to{
+            /* transform: translatex(100px); */
+            right: 100%;
+        }
+    
+    
+}
