@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{font-family:'Times New Roman', Times, serif;}
+
+
+/* global style */
+.img{width: 100%;
+    filter: contrast(1.2);
+    position: relative;
+}
+
+
+
+.front , .back {width: 100%;
+height: 100%;
+position: absolute;
+}
+
+
+.back{background-color: pink;
+color:white ;
+backface-visibility: hidden; 
+ transform: rotateY(180deg);
+ font-size: 25px;
+}
+
+
+
+.front{backface-visibility: hidden;}
+
+
+.text{position: absolute;
+top: 60px;
+left: 2px;}
+
+
+.text-brown{color: beige;}
+
+
+.text-grey{color: burlywood;}
+
+
+.padding-top{padding-top: 32px;}
+
+
+.button{display: flex;
+position: absolute;
+right: 70px;
+top: 367px;}
+
+
+.p-relative{position: relative;}
+
+
+.p-absolute{position: absolute;
+        right: -50px;
+    top: -13px;}
+/* right: 30px;} */
+/* .flip-card:hover {transform:rotateY(180deg);} */
+
+
+.flip-card:hover .product-card {transform: rotateY(180deg);}
+
+
+.icon{
+border: 4px solid whitesmoke;
+    border-radius: 50%;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    transition: 2s;}
+
+
+
+
+.icon:hover {
+    
+    transform: translateX(-30px);
+    border-radius: 30px;
+    width: 152px;
+    position: absolute;
+    right: -80px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    color: pink;
+    text-align: end;}
+
+
+    .icon:hover +.h6{
+        color: pink !important;
+z-index: 1
+    }
+
+.h6{transition: 3s;
+color: white;}
+
+
+
+
+
+.jump{transition: 3s;}
+
+
+.flip-card:hover .jump{transform: translateY(-10px);
+transition-timing-function:ease;}
+
+
+.h1-absolute{    position: absolute;
+    font-size: 15px;
+    bottom: 47px;
+    left: 3px;
+    color: wheat;
+transition: 3s;
+font-size: 20px;}
+
+
+.flip-card:hover .h1-absolute{transform: translateY(-10px);
+transition-timing-function: ease;}
+/* custom style */
+
+.container{margin: auto;
+width: 80%;}
+
+
+.product-card{width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: 1s;
+font-size: 50px;}
+
+.flip-card{width: 400px;
+height: 500px;
+position: relative;
+text-align: center;
+margin: 10% auto;
+text-transform: capitalize;
+perspective: 600px;}
+
+
+
+
